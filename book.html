@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking Form</title>
+  <link rel="stylesheet" href="book.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+          <h1 class="title">Cof<span>fee</span></h1>
+          <p>Coffee Shop</p>
+          <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="book.html">BOOKING FORM</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="main.html" target="_blank">CONTACT</a></li>
+            <li><a href="#">GALLERY</a></li>
+          </ul>
+        </div>
+
+
+  <form class="booking-form">
+    <h2>Table Booking</h2>
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required />
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="03xx-xxxxxxx" required />
+
+    <label for="date">Booking Date</label>
+    <input type="date" id="date" required />
+
+    <label for="time">Time</label>
+    <input type="time" id="time" required />
+
+    <label for="guests">Number of Guests</label>
+    <input type="number" id="guests" min="1" max="20" placeholder="e.g. 2" required />
+
+    <button type="submit">Book Now</button>
+
+
+  </form>
+
+</body>
+</html>
