@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('coffee-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    margin: 0;
+    background-color: black;
+  }
+  
+  .booking-form {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  
+  }
+  
+  .booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    /* color: #5b3921; */
+  }
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    /* color: #333; */
+  }
+  
+  .booking-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .booking-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6f4e37;
+    color: #d6c3b5;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-form button:hover {
+    background-color: #5a3b26;
+  }
+   
+
+  .container {
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('background\ \(1\).webp');
+    background-size: cover; */
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.nav-bar .title {
+    color: #fff;
+    font-size: 67px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+span {
+    color: crimson;
+}
+
+.nav-bar p {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:white;
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+
+.menu li a:hover {
+    color: crimson;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+}
+
+
